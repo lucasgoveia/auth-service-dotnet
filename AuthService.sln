@@ -12,6 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker", "docker", "{9A6E0FDF-3CDD-4B69-8CD9-1E2D22F3967A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService.Common", "src\AuthService.Common\AuthService.Common.csproj", "{201BEB9F-BDBC-498B-9918-8CDEBCDB2A09}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,8 +29,14 @@ Global
 		{391F275B-EE4D-4BA4-BD8D-F50CACE0E0EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{391F275B-EE4D-4BA4-BD8D-F50CACE0E0EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{391F275B-EE4D-4BA4-BD8D-F50CACE0E0EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{201BEB9F-BDBC-498B-9918-8CDEBCDB2A09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{201BEB9F-BDBC-498B-9918-8CDEBCDB2A09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{201BEB9F-BDBC-498B-9918-8CDEBCDB2A09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{201BEB9F-BDBC-498B-9918-8CDEBCDB2A09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{391F275B-EE4D-4BA4-BD8D-F50CACE0E0EB} = {0EAE3B57-5B06-489C-8BFF-6E40A381546B}
+		{9A6E0FDF-3CDD-4B69-8CD9-1E2D22F3967A} = {6027150B-6556-43AE-A1D7-B1E730A777BD}
+		{201BEB9F-BDBC-498B-9918-8CDEBCDB2A09} = {0EAE3B57-5B06-489C-8BFF-6E40A381546B}
 	EndGlobalSection
 EndGlobal
